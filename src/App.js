@@ -9,10 +9,12 @@ import About from './components/About';
 import Technologies from './components/Technologies';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import { Athul } from './components/Athul';
+import Test from './components/Test'
 
 function App() {
     return (
-     
+     <>
       <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300
       selection:text-cyan-900'>
 
@@ -35,7 +37,9 @@ function App() {
       </div>
       
       </div>
-    );
+      
+     </>
+    )
 }
 
 export default App;

@@ -1,11 +1,17 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import craftai from "../assets/projects/craftai.png";
+import project2 from "../assets/projects/image.png";
+import project3 from "../assets/projects/placement.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with a strong foundation in designing and building scalable web applications. As a self-taught MERN stack developer with experience working on multiple projects, I have honed my expertise in front-end technologies like React and TypeScript, and back-end technologies like Node.js, MongoDB, and Express.js.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+My goal is to leverage my technical skills and critical thinking abilities to create innovative solutions that enhance user experiences and drive business success. I am committed to continuous learning and thrive on tackling challenging problems while exploring new technologies and trends in software development.`;
+
+export const ABOUT_TEXT = `I am a committed and resourceful full-stack developer passionate about building efficient, scalable, and user-focused web applications. With a strong foundation in technologies like React, TypeScript, Node.js, MongoDB, and Express.js, I continuously seek to improve and adapt to the ever-evolving landscape of web development.
+
+My journey into software development started with a curiosity to solve real-world problems through technology, and it has grown into a rewarding career where I take pride in delivering high-quality solutions. I excel in collaborative settings, tackling complex challenges, and leveraging innovative technologies to create meaningful user experiences.
+
+Beyond coding, I enjoy exploring emerging tech trends, expanding my knowledge, and sharing my expertise with the developer community.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +46,58 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Craft AI",
+    image: craftai,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A Next.js application for AI-powered social media content generation designed to create engaging posts for Twitter, Instagram, and LinkedIn.",
+    technologies: ["Next.js", "Google Generative AI (Gemini)", "Drizzle ORM", "Neon", "Stripe"],
+    features: [
+      "AI-generated personalized content",
+      "Subscription payment functionality using Stripe",
+      "Responsive design for a seamless user experience",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "Food Delivery Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A feature-rich web application that allows users to browse restaurants, order food, and track delivery in real-time.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Redux"],
+    features: [
+      "Real-time chat functionality between users and restaurants",
+      "JWT authentication for secure sessions",
+      "Real-time notifications for order updates",
+      "Efficient state management with Redux",
+    ],
   },
   {
-    title: "Portfolio Website",
+    title: "Placement Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A comprehensive web application to manage placement activities within educational institutions.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
+    features: [
+      "Role-based access control for different user types",
+      "JWT authentication for secure access",
+      "Responsive design using Bootstrap",
+    ],
   },
   {
-    title: "Blogging Platform",
+    title: "E-Commerce Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A dynamic e-commerce platform with product catalog, user authentication, cart management, and payment gateway integration.",
+    technologies: ["Node.js", "Express.js", "MongoDB", "EJS", "CSS"],
+    features: [
+      "Secure user authentication",
+      "Product catalog and shopping cart functionality",
+      "Payment gateway integration",
+    ],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  // address: "767 Fifth Avenue, New York, NY 10153 ",
+  phoneNo: "6238009157 ",
+  email: "sreeragm8080@gmail.com",
 };
